@@ -1,17 +1,12 @@
 <script setup>
-
+import { RouterView } from 'vue-router';
 </script>
 
 <template>
-<h1 class="saludo">Hola HACKATONERS DEL GRUPO 12</h1>
+<RouterView/>
+
 </template>
 
 <style scoped>
-
-.saludo{
-  background-color: black;
-  color:greenyellow
-  
-}
 
 </style>
