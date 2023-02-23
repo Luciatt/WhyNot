@@ -7,29 +7,30 @@
   
   <style scoped>
   header {
-    background: linear-gradient(90deg, #000986 10%, #F98836 90%);
+    background:#f48c06;
     position: relative;
     width: 100%;
-    height: 20vw;
+    height: 13vw;
   }
 
-  img{
-    border-radius: 15;
-  }
+
   
   h1 {
   
     font-size: 5vw;
-    color: #fff;
+    color: #F1ECEC;
+;
     font-weight: normal;
     position: absolute;
-    top: 10vw;
-    left: 33vw;
+    top: 1vw;
+    left: 20vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   }
   
   header img {
-    width: 28%;
-    margin: 8px 0 0 5.9%;
+    width: 15%;
+    margin: 20px 10px 0 20px;
+    border-radius: 200px;
   }
   
   @media (max-width:500px) {

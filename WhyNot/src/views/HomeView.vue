@@ -4,7 +4,9 @@
 
 <template>
 <HeaderComponent></HeaderComponent>
-  <NavBar></NavBar>
+<NavBar></NavBar>
+
+  
   <main>
     <h3>Estamos buscandote para todos estos proyectos</h3>
     <section>

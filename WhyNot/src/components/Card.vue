@@ -33,8 +33,8 @@ const props = defineProps({
 <style scoped>
 li {
   min-width: 50px;
-  border: 10px solid #ff3401;
-  border-radius: 20px;
+  border: 5px solid #73CDD2;
+  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -80,7 +80,7 @@ p {
 .contentPokemon {
   position: relative;
   padding: 20px;
-  background-color: #ff3401;
+  background-color: none;
 
 }
 
