@@ -54,9 +54,7 @@
     <button type="submit">Registrarse</button>
   </form>
 
-
-
-</template>
+  </template>
 
 
 <style scoped>
@@ -99,7 +97,7 @@ form button[type="submit"] {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #fcb800;
+  background-color: #003049;
   color: #fff;
   font-size: 16px;
   font-weight: bold;
