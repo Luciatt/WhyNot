@@ -1,4 +1,5 @@
 <template>
+    
     <div class="login-container">
       <form>
         <h2>Iniciar sesión</h2>
@@ -13,16 +14,18 @@
         <button type="submit">Iniciar sesión</button>
       </form>
     </div>
+    
   </template>
   <script>
   export default {
     data() {
-      return {
-        email: '',
-        password: ''
-      }
+        return {
+            email: "",
+            password: ""
+        };
     }
   }
+  
   </script>
   
   <style>
@@ -31,7 +34,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ff8c00;
+    background-color: #f98836;
   }
   
   form {
@@ -72,8 +75,8 @@ button {
   border-radius: 5px;
   border: none;
   outline: none;
-  background-color: white;
-  color: #ff8c00;
+  background-color: #003049;
+  color: white;
   cursor: pointer;
 }
 </style>

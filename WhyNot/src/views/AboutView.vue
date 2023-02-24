@@ -1,4 +1,6 @@
 <template>
+  <HeaderComponentVue/>
+  <NavBarVue/>
   <div class="about-us">
     <div class="section">
       <h2>Nuestra empresa</h2>
@@ -41,7 +43,15 @@ Nuestro lema es "Haz tus ideas realidad"</p>
       </div>
     </div>
   </div>
+  <FooterComponentVue/>
 </template>
+
+<script setup>
+import FooterComponentVue from "../components/FooterComponent.vue";
+import HeaderComponentVue from "../components/HeaderComponent.vue";
+import NavBarVue from "../components/NavBar.vue";
+</script>
+
 
 <style scoped>
 .about-us {

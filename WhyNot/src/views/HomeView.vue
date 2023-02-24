@@ -15,7 +15,7 @@
       </ul>
     </section>
   </main>
-  <FooterComponent></FooterComponent>
+  <FooterComponent/>
 
 </template>
 <script setup>
@@ -39,7 +39,7 @@ section {
   font-family: "Roboto", sans-serif;
 }
 
- ul {
+ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 25px;
