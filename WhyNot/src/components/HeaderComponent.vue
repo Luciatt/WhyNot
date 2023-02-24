@@ -3,14 +3,21 @@
       <img src="../assets/whynot3.png" alt="logo">
       <h1>Let your project take off</h1>
     </header>
+    
+<NavBar/>
+    
   </template>
+  <script>
+import NavBar from './NavBar.vue';
+</script>
   
   <style scoped>
   header {
-    background:#f48c06;
+    
     position: relative;
     width: 100%;
-    height: 13vw;
+    height: 10vw;
+    background-color: #F98836;
   }
 
 
@@ -18,18 +25,18 @@
   h1 {
   
     font-size: 5vw;
-    color: #F1ECEC;
+    color: #918c8c;
 ;
     font-weight: normal;
     position: absolute;
-    top: 1vw;
-    left: 20vw;
+    top: 0vw;
+    left: 15vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   }
   
   header img {
-    width: 15%;
-    margin: 20px 10px 0 20px;
+    width: 13%;
+    margin: 10px 10px 0 20px;
     border-radius: 200px;
   }
   

@@ -1,7 +1,3 @@
-
-
-
-
 <template>
 <HeaderComponent></HeaderComponent>
 <NavBar></NavBar>
@@ -11,6 +7,12 @@
     <h3>Estamos buscandote para todos estos proyectos</h3>
     <section>
       <ul>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
         <Card></Card>
       </ul>
     </section>

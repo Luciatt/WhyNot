@@ -1,8 +1,12 @@
-<script>
+<script setup>
+import NavBar from '../components/NavBar.vue';
+import HeaderComponent from '../components/HeaderComponent.vue';
 
 </script>
 
 <template>
+    <HeaderComponent/>
+    <NavBar/>
   <form>
     <div>
       <label for="fullname">Nombre completo</label>
@@ -69,7 +73,7 @@ form {
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #fff;
+  
 }
 
 form label {

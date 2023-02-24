@@ -1,4 +1,6 @@
 <template>
+  <HeaderComponent/>
+  <NavBar/>
   <div class="about-us">
     <div class="section">
       <h2>Nuestra empresa</h2>
@@ -42,6 +44,11 @@ Nuestro lema es "Haz tus ideas realidad"</p>
     </div>
   </div>
 </template>
+
+<script setup>
+import HeaderComponent from '../components/HeaderComponent.vue';
+import NavBar from '../components/NavBar.vue';
+</script>
 
 <style scoped>
 .about-us {
