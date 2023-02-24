@@ -23,7 +23,8 @@ const props = defineProps({
     </figure>
     <div class="contentPokemon">
       <p><strong>FACTORIA F5</strong></p>
-      <h3>Gijón</h3>
+      <h3>Crear una App</h3>
+      <h4>Buscamos desarrolladores que quieran formar parte de un proyecto con la intención de cambiar vidas</h4>
       <p><strong>Busco Fullstack</strong></p>
     </div>
   </li>
@@ -31,11 +32,13 @@ const props = defineProps({
 
 
 <style scoped>
+
 li {
   min-width: 50px;
   border: 5px solid #73CDD2;
   border-radius: 10px;
   overflow: hidden;
+  background-color: #003949;
 }
 
 figure {
@@ -47,47 +50,33 @@ img {
   width: 100%;
 }
 
-h3 {
+h4 {
   font-size: 16px;
-  color: #ffffff;
-  text-transform: uppercase;
+  color: white;
+ 
  
 }
 
-h2 {
+h3 {
   font-size: 16px;
-  color: #000000;
+  color: white;
   text-transform: uppercase;
   margin-bottom: 4px;
-  margin-top: -24px;
+  margin-top: -12px;
   margin-right: 25px;
 }
 
-
-
-
-
 p {
-  color: black;
+  color: white;
   font-family: "Roboto";
   font-size: larger;
 }
-
-
-
-
-
 .contentPokemon {
   position: relative;
   padding: 20px;
   background-color: none;
 
 }
-
-
-
-
-
 
 @media (max-width:500px) {
   li {

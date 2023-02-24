@@ -13,7 +13,7 @@ import NavBar from './NavBar.vue';
   
   <style scoped>
   header {
-    
+    background:#f98836;
     position: relative;
     width: 100%;
     height: 10vw;
@@ -25,7 +25,7 @@ import NavBar from './NavBar.vue';
   h1 {
   
     font-size: 5vw;
-    color: #918c8c;
+    color: white;
 ;
     font-weight: normal;
     position: absolute;

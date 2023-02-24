@@ -1,6 +1,6 @@
 <template>
     <footer>
-      <p>Copyright 2022</p>
+      <p>@Copyright 2022</p>
     </footer>
   </template>
   
@@ -8,7 +8,7 @@
   footer {
     height: 80px;
     width: 100%;
-    background-color: #f48c06;
+    background-color: #f98836;
     display: flex;
     align-items: center;
     justify-content: center;

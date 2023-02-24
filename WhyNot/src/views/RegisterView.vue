@@ -1,7 +1,7 @@
 <script setup>
 import NavBar from '../components/NavBar.vue';
 import HeaderComponent from '../components/HeaderComponent.vue';
-
+import FooterComponent from '../components/FooterComponent.vue';
 </script>
 
 <template>
@@ -57,10 +57,8 @@ import HeaderComponent from '../components/HeaderComponent.vue';
     </div>
     <button type="submit">Registrarse</button>
   </form>
-
-
-
-</template>
+<FooterComponent/>
+  </template>
 
 
 <style scoped>
@@ -103,7 +101,7 @@ form button[type="submit"] {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #fcb800;
+  background-color: #003049;
   color: #fff;
   font-size: 16px;
   font-weight: bold;

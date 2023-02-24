@@ -42,6 +42,7 @@
     padding: 20px;
     background-color: #F98836;
     border-radius: 10px;
+    margin-bottom: 20px;
   }
   
   h2 {
@@ -72,7 +73,7 @@ button {
   border-radius: 5px;
   border: none;
   outline: none;
-  background-color: #73CDD2;
+  background-color: #003049;
   color: #ffff;
   cursor: pointer;
 }

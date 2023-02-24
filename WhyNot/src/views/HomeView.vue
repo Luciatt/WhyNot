@@ -4,7 +4,7 @@
 
   
   <main>
-    <h3>Estamos buscandote para todos estos proyectos</h3>
+    <h3>Find the best web project for you</h3>
     <section>
       <ul>
         <Card></Card>
@@ -17,7 +17,7 @@
       </ul>
     </section>
   </main>
-  <FooterComponent></FooterComponent>
+  <FooterComponent/>
 
 </template>
 <script setup>
@@ -41,7 +41,7 @@ section {
   font-family: "Roboto", sans-serif;
 }
 
- ul {
+ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 25px;
